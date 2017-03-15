@@ -1,4 +1,4 @@
-package br.com.empresa.app.kronus.conf;
+package br.com.odara.app.agendou.conf;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.ComponentScan.Filter;

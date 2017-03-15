@@ -1,4 +1,4 @@
-package br.com.empresa.app.kronus.conf;
+package br.com.odara.app.agendou.conf;
 
 import java.util.Properties;
 
@@ -24,7 +24,7 @@ public class JPAConfiguration {
 		LocalContainerEntityManagerFactoryBean em = new LocalContainerEntityManagerFactoryBean();
 
 		em.setDataSource(dataSource);
-		em.setPackagesToScan(new String[] { "br.com.empresa.app.kronus.models" });
+		em.setPackagesToScan(new String[] { "br.com.odara.app.agendou.models" });
 
 		JpaVendorAdapter vendorAdapter = new HibernateJpaVendorAdapter();
 		em.setJpaVendorAdapter(vendorAdapter);
@@ -44,7 +44,7 @@ public class JPAConfiguration {
 	private Properties additionalProperties() {
 		Properties properties = new Properties();
 
-		properties.setProperty("hibernate.hbm2ddl.auto", "create-drop");
+		properties.setProperty("hibernate.hbm2ddl.auto", "create");
 		properties.setProperty("hibernate.show_sql", "true");
 		properties.setProperty("hibernate.format_sql", "true");
 		return properties;

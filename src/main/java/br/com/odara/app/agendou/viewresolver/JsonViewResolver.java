@@ -1,4 +1,4 @@
-package br.com.empresa.app.kronus.viewresolver;
+package br.com.odara.app.agendou.viewresolver;
 
 import java.util.Locale;
 

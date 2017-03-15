@@ -1,4 +1,4 @@
-package br.com.empresa.app.kronus.conf;
+package br.com.odara.app.agendou.conf;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -15,9 +15,9 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 import org.springframework.web.servlet.view.ContentNegotiatingViewResolver;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
-import br.com.empresa.app.kronus.controllers.IndexController;
-import br.com.empresa.app.kronus.daos.EmpresaDAO;
-import br.com.empresa.app.kronus.viewresolver.JsonViewResolver;
+import br.com.odara.app.agendou.controllers.IndexController;
+import br.com.odara.app.agendou.daos.EmpresaDAO;
+import br.com.odara.app.agendou.viewresolver.JsonViewResolver;
 
 @Configuration
 @EnableWebMvc

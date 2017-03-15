@@ -1,4 +1,4 @@
-package br.com.empresa.app.kronus.models;
+package br.com.odara.app.agendou.models;
 
 import java.util.ArrayList;
 import java.util.Collection;

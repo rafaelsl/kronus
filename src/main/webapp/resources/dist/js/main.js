@@ -6,7 +6,7 @@ $(document).ready(function() {
 			$.ajax({
 				type : "GET",
 				contentType : "application/json",
-				url : "http://localhost:8080/kronus/",
+				url : "http://localhost:8080/agendou/",
 				data : JSON.stringify(data),
 				dataType : 'json',
 				timeout : 100000,
@@ -36,7 +36,7 @@ $(document).ready(function() {
 				$.ajax({
 					type : "POST",
 					contentType : "application/json",
-					url : "http://localhost:8080/kronus/salvar",
+					url : "http://localhost:8080/agendou/salvar",
 					data: JSON.stringify(empresa),
 					dataType : "json",
 					success : function(empresa) {

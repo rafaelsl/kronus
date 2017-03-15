@@ -1,4 +1,4 @@
-package br.com.empresa.app.kronus.conf;
+package br.com.odara.app.agendou.conf;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpMethod;
@@ -8,7 +8,7 @@ import org.springframework.security.config.annotation.web.configuration.EnableWe
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
-import br.com.empresa.app.kronus.daos.EmpresaDAO;
+import br.com.odara.app.agendou.daos.EmpresaDAO;
 
 @EnableWebSecurity
 public class SecurityConfiguration extends WebSecurityConfigurerAdapter {

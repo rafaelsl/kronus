@@ -1,4 +1,4 @@
-package br.com.empresa.app.kronus.controllers;
+package br.com.odara.app.agendou.controllers;
 
 import java.util.List;
 
@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.ModelAndView;
 
-import br.com.empresa.app.kronus.daos.EmpresaDAO;
-import br.com.empresa.app.kronus.models.Empresa;
+import br.com.odara.app.agendou.daos.EmpresaDAO;
+import br.com.odara.app.agendou.models.Empresa;
 
 @RestController
 @Transactional

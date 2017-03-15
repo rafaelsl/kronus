@@ -1,4 +1,4 @@
-package br.com.empresa.app.kronus.models;
+package br.com.odara.app.agendou.models;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

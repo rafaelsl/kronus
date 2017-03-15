@@ -1,4 +1,4 @@
-package br.com.empresa.app.kronus.daos;
+package br.com.odara.app.agendou.daos;
 
 import java.util.List;
 
@@ -10,7 +10,7 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Repository;
 
-import br.com.empresa.app.kronus.models.Empresa;
+import br.com.odara.app.agendou.models.Empresa;
 
 @Repository
 public class EmpresaDAO implements UserDetailsService {
